@@ -1,0 +1,78 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+.deleteButton button {
+  position: absolute;
+  left: 130px;
+  width: auto;
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #abc;
+  border-radius: 4px;
+  background-color: tomato;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  justify-content: space-evenly;
+  width: 80vw;
+  margin-left: 10vw;
+  box-sizing: border-box;
+  border-collapse: collapse;
+}
+
+tr {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80vw;
+  text-align: left;
+  padding-block: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+td,
+th {
+  width: 20%;
+}
+tr td:nth-child(4) {
+  text-transform: capitalize;
+}
+.pageButton {
+  position: absolute;
+  right: 115px;
+}
+button {
+  background-color: #c5d6dd7c;
+  margin: 6px;
+  height: 40px;
+  width: 40px;
+  border: 50%;
+  border: 1px solid #209cee;
+  color: black;
+  font-weight: 300;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: cornflowerblue;
+  border: 1px solid cornflowerblue;
+}
+
+button:disabled {
+  background-color: white;
+  color: #209cee;
+}
