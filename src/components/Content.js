@@ -185,7 +185,7 @@ const Content = () => {
                     key={val.id}
                     checked={checkbox.includes(val.id)}
                     selectUser={() => userSelect(val.id)}
-                    onDelete={() => userDelete(val.id)}
+                    deleteUser={() => userDelete(val.id)}
                   />
                 );
               })
